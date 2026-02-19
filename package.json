@@ -1,11 +1,13 @@
 {
   "name": "notion-mcp-server",
   "version": "1.0.0",
-  "description": "Notion MCP Server",
-  "main": "index.js",
+  "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {}
 }
